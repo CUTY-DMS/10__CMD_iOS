@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35DD185C2C7DE60700862936 /* TabbarConrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DD185B2C7DE60700862936 /* TabbarConrollerViewController.swift */; };
 		552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */; };
 		552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */; };
 		552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35DD185B2C7DE60700862936 /* TabbarConrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarConrollerViewController.swift; sourceTree = "<group>"; };
 		552B55812C7B6D2E00F0C7FD /* 10__CMD_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10__CMD_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35DD185A2C7DE5D200862936 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				35DD185B2C7DE60700862936 /* TabbarConrollerViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		552B55782C7B6D2E00F0C7FD = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		552B55832C7B6D2E00F0C7FD /* 10__CMD_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				35DD185A2C7DE5D200862936 /* TabBar */,
 				552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */,
 				552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */,
 				552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */,
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */,
+				35DD185C2C7DE60700862936 /* TabbarConrollerViewController.swift in Sources */,
 				552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */,
 				552B55992C7BFCB700F0C7FD /* SignUpViewController.swift in Sources */,
 				552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */,
