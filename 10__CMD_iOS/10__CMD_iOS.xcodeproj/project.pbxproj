@@ -15,6 +15,8 @@
 		552B55992C7BFCB700F0C7FD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55982C7BFCB700F0C7FD /* SignUpViewController.swift */; };
 		552B559C2C7BFCE400F0C7FD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 552B559B2C7BFCE400F0C7FD /* SnapKit */; };
 		552B559F2C7BFCEA00F0C7FD /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 552B559E2C7BFCEA00F0C7FD /* Then */; };
+		5580004D2C7D96FB00A38D82 /* CheckMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580004C2C7D96FB00A38D82 /* CheckMenuViewController.swift */; };
+		5580004F2C7D970C00A38D82 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580004E2C7D970C00A38D82 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		552B55902C7B6D2F00F0C7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		552B55922C7B6D2F00F0C7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		552B55982C7BFCB700F0C7FD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5580004C2C7D96FB00A38D82 /* CheckMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMenuViewController.swift; sourceTree = "<group>"; };
+		5580004E2C7D970C00A38D82 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */,
 				552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */,
 				552B55982C7BFCB700F0C7FD /* SignUpViewController.swift */,
+				5580004E2C7D970C00A38D82 /* MenuViewController.swift */,
+				5580004C2C7D96FB00A38D82 /* CheckMenuViewController.swift */,
 				552B558D2C7B6D2F00F0C7FD /* Assets.xcassets */,
 				552B558F2C7B6D2F00F0C7FD /* LaunchScreen.storyboard */,
 				552B55922C7B6D2F00F0C7FD /* Info.plist */,
@@ -150,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */,
+				5580004F2C7D970C00A38D82 /* MenuViewController.swift in Sources */,
+				5580004D2C7D96FB00A38D82 /* CheckMenuViewController.swift in Sources */,
 				552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */,
 				552B55992C7BFCB700F0C7FD /* SignUpViewController.swift in Sources */,
 				552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */,
