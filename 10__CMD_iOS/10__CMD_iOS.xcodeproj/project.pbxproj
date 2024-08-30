@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3561B7442C81B3AC009C4B2A /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561B7432C81B3AC009C4B2A /* NoticeViewController.swift */; };
+		3561B7462C81B3D6009C4B2A /* NoticeContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561B7452C81B3D6009C4B2A /* NoticeContentsViewController.swift */; };
 		552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */; };
 		552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */; };
 		552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3561B7432C81B3AC009C4B2A /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		3561B7452C81B3D6009C4B2A /* NoticeContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeContentsViewController.swift; sourceTree = "<group>"; };
 		552B55812C7B6D2E00F0C7FD /* 10__CMD_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10__CMD_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3561B7422C81B376009C4B2A /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				3561B7432C81B3AC009C4B2A /* NoticeViewController.swift */,
+				3561B7452C81B3D6009C4B2A /* NoticeContentsViewController.swift */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
 		552B55782C7B6D2E00F0C7FD = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +77,7 @@
 		552B55832C7B6D2E00F0C7FD /* 10__CMD_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3561B7422C81B376009C4B2A /* Notice */,
 				552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */,
 				552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */,
 				552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */,
@@ -158,6 +172,8 @@
 				552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */,
 				5580004F2C7D970C00A38D82 /* MenuViewController.swift in Sources */,
 				5580004D2C7D96FB00A38D82 /* CheckMenuViewController.swift in Sources */,
+				3561B7442C81B3AC009C4B2A /* NoticeViewController.swift in Sources */,
+				3561B7462C81B3D6009C4B2A /* NoticeContentsViewController.swift in Sources */,
 				552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */,
 				552B55992C7BFCB700F0C7FD /* SignUpViewController.swift in Sources */,
 				552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */,
