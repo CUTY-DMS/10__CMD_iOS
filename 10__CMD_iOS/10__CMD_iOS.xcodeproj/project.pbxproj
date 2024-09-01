@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357381492C84964900CA21D0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 357381482C84964900CA21D0 /* Then */; };
+		3573814C2C84964E00CA21D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3573814B2C84964E00CA21D0 /* SnapKit */; };
+		3587D8032C84A42500B59AD2 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587D8022C84A42500B59AD2 /* MyPageViewController.swift */; };
+		35DC73362C81B9B70081D366 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */; };
 		552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */; };
 		552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */; };
 		552B558E2C7B6D2F00F0C7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552B558D2C7B6D2F00F0C7FD /* Assets.xcassets */; };
 		552B55912C7B6D2F00F0C7FD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 552B55902C7B6D2F00F0C7FD /* Base */; };
 		552B55992C7BFCB700F0C7FD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B55982C7BFCB700F0C7FD /* SignUpViewController.swift */; };
-		552B559C2C7BFCE400F0C7FD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 552B559B2C7BFCE400F0C7FD /* SnapKit */; };
-		552B559F2C7BFCEA00F0C7FD /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 552B559E2C7BFCEA00F0C7FD /* Then */; };
 		5580004D2C7D96FB00A38D82 /* CheckMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580004C2C7D96FB00A38D82 /* CheckMenuViewController.swift */; };
 		5580004F2C7D970C00A38D82 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580004E2C7D970C00A38D82 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3587D8022C84A42500B59AD2 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		552B55812C7B6D2E00F0C7FD /* 10__CMD_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10__CMD_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,14 +40,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552B559C2C7BFCE400F0C7FD /* SnapKit in Frameworks */,
-				552B559F2C7BFCEA00F0C7FD /* Then in Frameworks */,
+				357381492C84964900CA21D0 /* Then in Frameworks */,
+				3573814C2C84964E00CA21D0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3561B7422C81B376009C4B2A /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
 		552B55782C7B6D2E00F0C7FD = {
 			isa = PBXGroup;
 			children = (
@@ -64,12 +74,14 @@
 		552B55832C7B6D2E00F0C7FD /* 10__CMD_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3561B7422C81B376009C4B2A /* Notice */,
 				552B55842C7B6D2E00F0C7FD /* AppDelegate.swift */,
 				552B55862C7B6D2E00F0C7FD /* SceneDelegate.swift */,
 				552B55882C7B6D2E00F0C7FD /* LoginViewController.swift */,
 				552B55982C7BFCB700F0C7FD /* SignUpViewController.swift */,
 				5580004E2C7D970C00A38D82 /* MenuViewController.swift */,
 				5580004C2C7D96FB00A38D82 /* CheckMenuViewController.swift */,
+				3587D8022C84A42500B59AD2 /* MyPageViewController.swift */,
 				552B558D2C7B6D2F00F0C7FD /* Assets.xcassets */,
 				552B558F2C7B6D2F00F0C7FD /* LaunchScreen.storyboard */,
 				552B55922C7B6D2F00F0C7FD /* Info.plist */,
@@ -94,8 +106,8 @@
 			);
 			name = 10__CMD_iOS;
 			packageProductDependencies = (
-				552B559B2C7BFCE400F0C7FD /* SnapKit */,
-				552B559E2C7BFCEA00F0C7FD /* Then */,
+				357381482C84964900CA21D0 /* Then */,
+				3573814B2C84964E00CA21D0 /* SnapKit */,
 			);
 			productName = 10__CMD_iOS;
 			productReference = 552B55812C7B6D2E00F0C7FD /* 10__CMD_iOS.app */;
@@ -126,8 +138,8 @@
 			);
 			mainGroup = 552B55782C7B6D2E00F0C7FD;
 			packageReferences = (
-				552B559A2C7BFCE400F0C7FD /* XCRemoteSwiftPackageReference "SnapKit" */,
-				552B559D2C7BFCEA00F0C7FD /* XCRemoteSwiftPackageReference "Then" */,
+				357381472C84964900CA21D0 /* XCRemoteSwiftPackageReference "Then" */,
+				3573814A2C84964E00CA21D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 552B55822C7B6D2E00F0C7FD /* Products */;
 			projectDirPath = "";
@@ -157,10 +169,12 @@
 			files = (
 				552B55892C7B6D2E00F0C7FD /* LoginViewController.swift in Sources */,
 				5580004F2C7D970C00A38D82 /* MenuViewController.swift in Sources */,
+				35DC73362C81B9B70081D366 /* (null) in Sources */,
 				5580004D2C7D96FB00A38D82 /* CheckMenuViewController.swift in Sources */,
 				552B55852C7B6D2E00F0C7FD /* AppDelegate.swift in Sources */,
 				552B55992C7BFCB700F0C7FD /* SignUpViewController.swift in Sources */,
 				552B55872C7B6D2E00F0C7FD /* SceneDelegate.swift in Sources */,
+				3587D8032C84A42500B59AD2 /* MyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,15 +389,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		552B559A2C7BFCE400F0C7FD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-		552B559D2C7BFCEA00F0C7FD /* XCRemoteSwiftPackageReference "Then" */ = {
+		357381472C84964900CA21D0 /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
 			requirement = {
@@ -391,18 +397,26 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		3573814A2C84964E00CA21D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		552B559B2C7BFCE400F0C7FD /* SnapKit */ = {
+		357381482C84964900CA21D0 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 552B559A2C7BFCE400F0C7FD /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		552B559E2C7BFCEA00F0C7FD /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 552B559D2C7BFCEA00F0C7FD /* XCRemoteSwiftPackageReference "Then" */;
+			package = 357381472C84964900CA21D0 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		3573814B2C84964E00CA21D0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3573814A2C84964E00CA21D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
