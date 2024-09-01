@@ -7,9 +7,6 @@
 		<key>10__CMD_iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 			<integer>1</integer>
 		</dict>
 		<key>SnapKitPlayground (Playground) 1.xcscheme</key>
@@ -31,9 +28,6 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-=======
->>>>>>> 9-MyPage-publishing
->>>>>>> Stashed changes
 			<integer>0</integer>
 		</dict>
 	</dict>
